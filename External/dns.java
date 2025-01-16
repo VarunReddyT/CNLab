@@ -14,5 +14,6 @@ public class dns {
         catch(UnknownHostException e){
             System.out.println(e);
         }
+        sc.close();
     }
 }

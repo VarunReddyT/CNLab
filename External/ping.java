@@ -21,5 +21,6 @@ public class ping {
         catch(IOException e){
             System.out.println(e);
         }
+        sc.close();
     }
 }
